@@ -1,0 +1,27 @@
+.button_huy {
+  position: absolute;
+  right: 11%;
+  top: -35px;
+}
+.font_Form {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 1px solid #9ac1e5f0;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #9ac1e5f0;
+}
+.font_Form form {
+  padding: 2%;
+}
+.upload {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

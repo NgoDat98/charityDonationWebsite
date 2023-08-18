@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.font_header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.font_header img {
+  width: 25%;
+}
+.button_auth {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.button_auth button {
+  border: 1px solid #0798db;
+  border-radius: 20px;
+  color: #0798db;
+  font-weight: 600;
+  font-size: 90%;
+}
+.nav li {
+  width: 18%;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.font_nav {
+  height: 100%;
+  z-index: 200;
+  background-color: #001529;
+  position: fixed;
+  top: 0;
+  transition: 0.2s;
+  left: -280px;
+  opacity: 0;
+  padding: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.font_nav img {
+  width: 100%;
+  max-width: 200px;
+}
+.close {
+  width: 300px;
+  left: 0;
+  opacity: 0.9;
+  height: 100%;
+  z-index: 200;
+  background-color: #001529;
+  position: fixed;
+  top: 0;
+  transition: 0.2s;
+  padding: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.close img {
+  width: 100%;
+  max-width: 300px;
+}
+@media only screen and (max-width: 1200px) {
+  .button_auth {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .close {
+    width: 100px;
+  }
+  .font_nav img {
+    max-width: 0;
+  }
+}

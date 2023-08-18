@@ -1,0 +1,83 @@
+.font_Sigup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.font_Sigup form {
+  width: 36%;
+  padding: 2% 2% 2% 2%;
+  /* background-image: linear-gradient(#d5ea8f69, #e59a9a57); */
+  background-image: linear-gradient(#8fe2ea57, #9ad2e5c9);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+.font_Sigup h1 {
+  width: 100%;
+  text-align: center;
+  color: #00aaff;
+  padding: 2% 2% 5% 2%;
+  font-weight: 700;
+  font-family: cursive;
+}
+.font_Sigup img {
+  width: 40%;
+}
+.font_Sigup button {
+  width: 30%;
+  background-color: #00aaff;
+}
+
+.font_Signin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.font_Signin form {
+  width: 36%;
+  padding: 2% 2% 2% 2%;
+  /* background-image: linear-gradient(#d5ea8f69, #e59a9a57); */
+  background-image: linear-gradient(#8fe2ea57, #9ad2e5c9);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+.font_Signin h1 {
+  width: 100%;
+  text-align: center;
+  color: #00aaff;
+  padding: 2% 2% 5% 2%;
+  font-weight: 700;
+  font-family: cursive;
+}
+.font_Signin button {
+  width: 30%;
+  background-color: #00aaff;
+}
+.font_Signin p {
+  width: 100%;
+  text-align: center;
+  color: #00aaff;
+}
+.font_Signin i {
+  font-size: larger;
+}
+
+@media only screen and (max-width: 900px) {
+  .font_Sigup img {
+    width: 0%;
+  }
+  .font_Sigup form {
+    width: 56%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .font_Signin form {
+    width: 56%;
+  }
+}

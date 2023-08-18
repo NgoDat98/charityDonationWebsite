@@ -1,0 +1,119 @@
+/* .tableMain tr {
+  background-color: #d4deef8f;
+} */
+.tableMain {
+  width: 80%;
+  margin: auto;
+}
+
+.tableMain tr:nth-child(odd) {
+  background-color: #d4deef8f;
+}
+.tableMain tr:nth-child(even) {
+  background-color: white;
+}
+.btnButtom {
+  background-color: white;
+  border: none;
+  font-size: 100%;
+}
+
+.btnButtom:hover {
+  color: #1dcee8;
+  background-color: #fafafa;
+}
+
+.btnButtom:active {
+  color: #ff1000;
+  background-color: #fafafa;
+}
+
+.trangthai1 {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #40a9ff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 400;
+  padding: 4px 8px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.trangthai2 {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #35d909;
+  font-weight: 400;
+  padding: 4px 8px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.trangthai3 {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #faca14;
+  font-weight: 400;
+  padding: 4px 8px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.trangthai4 {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #c752c7;
+  font-weight: 400;
+  padding: 4px 8px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.trangthai5 {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: red;
+  font-weight: 400;
+  padding: 4px 8px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

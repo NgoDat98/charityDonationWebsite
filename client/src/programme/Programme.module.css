@@ -1,0 +1,43 @@
+.banner {
+  width: 100%;
+  text-align: center;
+}
+.banner h2 {
+  color: #0798db;
+}
+.solieu p {
+  margin-bottom: 5px;
+}
+
+.thanhtich {
+  background-color: #cbb49d52;
+  padding: 3% 0;
+  margin-top: 3%;
+}
+.thanhtich img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.thanhtich h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #db0763;
+}
+.thongke {
+  display: flex;
+  justify-content: space-around;
+}
+.thongke h2 {
+  font-family: cursive;
+  color: #060606;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.thongke p {
+  font-family: cursive;
+  color: #596065;
+}

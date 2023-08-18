@@ -1,0 +1,67 @@
+.allimg {
+  margin: 0;
+  height: 160px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  background-color: #364d79;
+}
+
+.girdImg img {
+  max-width: 95%;
+  transition: transform 0.2s;
+}
+.girdImg button {
+  background-color: #000000;
+  height: 30px;
+}
+
+.girdImg img:hover {
+  transform: scale(1.05);
+}
+/* .girdImg button:hover {
+  background-color: #000000a2;
+} */
+
+.body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  width: 60%;
+  margin-top: 24px;
+}
+.content h3 {
+  font-size: 110%;
+  font-weight: 700;
+  font-family: serif;
+}
+.cauchuyen img {
+  max-width: 100%;
+}
+.card {
+  width: 35%;
+  margin: 0 2.5%;
+}
+.solieu p {
+  text-align: center;
+}
+
+.list_donation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+
+.list_donation p {
+  margin: 0;
+}
+
+.hinh_thuc_quyen_gop {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px solid #f0f0f0;
+}

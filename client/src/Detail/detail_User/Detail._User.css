@@ -1,0 +1,14 @@
+.slick-arrow.slick-next {
+  background-color: rgb(0, 0, 0);
+  padding: 4px 0 0 0;
+}
+.slick-arrow.slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.532);
+}
+.slick-arrow.slick-prev {
+  background-color: rgb(0, 0, 0);
+  padding: 4px 0 0 0;
+}
+.slick-arrow.slick-prev:hover {
+  background-color: rgba(0, 0, 0, 0.532);
+}
