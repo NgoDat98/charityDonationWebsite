@@ -3,11 +3,11 @@
 ## Project introduction
 
 - purpose:
-- Create a website to support people who want to help those in need or a humanitarian organization but lack the budget to maintain,
-- Make it simple to donate money to charity, encapsulating in a few small steps on your laptop or mobile phone. Information about donations and sponsorships is public and constantly updated, users can easily look up
+  - Create a website to support people who want to help those in need or a humanitarian organization but lack the budget to maintain,
+  - Make it simple to donate money to charity, encapsulating in a few small steps on your laptop or mobile phone. Information about donations and sponsorships is public and constantly updated, users can easily look up
 - participant :
-- The project is aimed at all philanthropists and non-profit humanitarian organizations,
-- Contributing to helping disadvantaged people, children in remote areas, orphans, the elderly, people with disabilities, and people with serious illnesses
+  - The project is aimed at all philanthropists and non-profit humanitarian organizations,
+  - Contributing to helping disadvantaged people, children in remote areas, orphans, the elderly, people with disabilities, and people with serious illnesses
 
 ## Functional description
 
@@ -21,9 +21,9 @@
 ## Demo link (Note that this is a demo website so it can only be pushed to Free Cloud Application Storage so you need to reload the page 1 to 2 times for the server to start and return data)
 
 - link : https://quytraitimnhanai.web.app/
-- You can use a dedicated admin account to access the admin page:
-- email: admin
-- password: 12345678
+  - You can use a dedicated admin account to access the admin page:
+    - email: admin
+    - password: 12345678
 
 ## Deployment guide (on local)
 
